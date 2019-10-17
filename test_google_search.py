@@ -17,7 +17,7 @@ def test_google_search():
         time.sleep(2)
     with allure.step('Поиск кнопки Ввод'):
         find_name = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[1]')
-        print("Check")
+        print("Checkk")
     find_name.click()
 
 
